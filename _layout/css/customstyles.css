@@ -1,0 +1,25 @@
+.cv-section {
+		padding: 65px 0;
+		border-top: 1px solid #dadada; 
+	}
+	
+	#header .cv-section:first-child { border-top: 10px solid #5b0d0f; }
+
+
+	.cv-item:hover .period { background-color: #5b0d0f; }
+
+
+		.cv-contact-toggle {
+		position: absolute;
+		top: 0;
+		right: -50px;
+		width: 50px;
+		height: 50px;
+		background-color: #5b0d0f;
+		text-align: center;
+		cursor: pointer;
+		border-radius: 0 2px 2px 0;
+		-webkit-transition: background-color 0.3s;
+			 -o-transition: background-color 0.3s;
+				transition: background-color 0.3s;
+	}

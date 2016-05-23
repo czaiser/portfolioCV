@@ -1,0 +1,119 @@
+/*
+___________________________________________________________________
+
+  _____ _          _       ______     _               
+ / ____| |        (_)     |___  /    (_)              
+| |    | |__  _ __ _ ___     / / __ _ _ ___  ___ _ __ 
+| |    | '_ \| '__| / __|   / / / _` | / __|/ _ \ '__|
+| |____| | | | |  | \__ \  / /_| (_| | \__ \  __/ |   
+ \_____|_| |_|_|  |_|___/ /_____\__,_|_|___/\___|_|   
+   
+
+  Project:....: Portfolio 2015
+ 
+  Author......: Chris Zaiser - Confederation College
+  Copyright...: (c) 2015 Chris Zaiser
+ 
+  Created.....: 2015.01.05
+  Updated.....: 2015.04.04
+
+___________________________________________________________________
+
+*/
+
+/* Logo at the top of the page */
+#logo{
+	width: 300px;
+	height: 300px;
+	/* Thanks to Bojangles on Stackflow for the help with this part */
+	/* http://stackoverflow.com/questions/18462808/responsive-image-align-center-bootstrap-3 */
+	margin: 0 auto;
+}
+
+
+/* Photos in the Recent Work section */
+
+
+/* Sections */
+#about, #recentwork, #work, #videos, #contact{
+	background-color: #000000;
+	background-image: url('../images/bg-body22.png');
+	
+
+}
+
+#mainNavBar{
+	background-color: #000000;
+	background-image: url('../images/bg-body22.png');
+}
+
+#home2{
+	background-color: #000000;
+	background-image: url('../images/bg-body22.png');
+	padding-top: 100px;
+}
+
+
+/* H1 headers */
+#aboutMe{
+	color: #ffffff;
+}
+
+#recentWork{
+	color: #ffffff;
+}
+
+#myWork{
+	color: #ffffff;
+}
+
+#videos{
+	color: #ffffff;
+}
+
+
+/* Contact colour */
+h1.noSubtitle{
+	color: #ffffff;
+}
+
+
+/* Paralax */
+#paralaxSlice1 {
+	background-image: url('../images/bg-triangles.png');
+	width:100%;
+	background-attachment:scroll;
+	background-size: cover;
+	background-position: top center;
+}
+
+#paralaxSlice2 {
+	background-image: url('../images/bg-triangles.png');
+	width:100%;
+	background-attachment:scroll;
+	background-size: cover;
+	background-position: top center;
+}
+
+#paralaxSlice3 {
+	background-image: url('../images/bg-triangles.png');
+	width:100%;
+	background-attachment:scroll;
+	background-size: cover;
+	background-position: top center;
+}
+
+
+/* Footer */
+.footer{
+	padding: 15px;
+	background-color: #000000;
+	background-image: url('../images/bg-body22.png');
+
+}
+
+
+/* Contact form labels */
+.control-label{
+	color: #000000;
+}
